@@ -1,0 +1,102 @@
+
+
+.reseve{
+    position:relative;
+    left: -220px;
+    top:-250px ;
+    min-width: 30vh;
+    min-height:50vh;
+  
+    outline: none;
+    border-radius: 5px;
+    z-index:5 ;
+ 
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconeX{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color:rgb(238, 27, 27);
+    border-radius: 10px;
+    font-size: 35px;
+}
+.container{
+  background-color: rgba(215, 95, 43, 0.8);
+    padding:50px 20px;
+    border-radius: 10px;
+    position: relative;
+      box-shadow: 5px 2px 1px rgba(17, 17, 5, 0.3);
+   
+}
+.itemInfo{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding-top: 40px;
+
+}
+.titleHotel,.price,.maxpeople,.roomnumber,.deschotel{
+    padding-right: 20px;
+    color: rgb(26, 26, 18);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 5px;
+    color:whitesmoke
+
+}
+
+.selectItem{
+   margin-left: 290px;
+
+  color: rgb(18, 50, 164,0.6);
+  font-weight: 700;
+  font-size: 25px;
+   
+  
+}
+.roomNumber{
+    display:flex;
+  align-items: center;
+}
+
+.check{
+    font-weight: 500;
+    font-size: 20px;
+   
+ 
+    width: 50px;
+   
+    height: 30px;
+    
+
+}
+
+.spanLigne{
+    margin-top: 10px;
+    border-bottom:solid 5px  ;
+}
+
+.reserveBtn{
+    background-color: rgb(14, 14, 226,0.7);
+    color:white ;
+    text-align: center;
+    padding: 10px ;
+    margin: 40px 0;
+    margin-left: 300px;
+    width: 150px ;
+    
+}
+.roomnumber{
+    display :flex ;
+    align-items: center;
+}
+.itemRoom{
+    display :flex ;
+    align-items: center; 
+    flex-basis: wrap;
+}
